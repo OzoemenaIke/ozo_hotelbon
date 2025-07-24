@@ -20,6 +20,10 @@ Long description of module's purpose
     'depends': ['base','stock', 'sale'],
 
     # always loaded
+'tests': [
+    'tests/test_voucher.py'
+
+    ],
     'data': [
 
 
