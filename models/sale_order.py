@@ -6,8 +6,4 @@ class SalesOrder(models.Model):
     def action_confirm(self):
         res = super().action_confirm()
 
-        for order in self:
-            for line in order.order_line:
-                product = line.product_id
-
 

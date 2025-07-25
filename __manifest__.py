@@ -17,13 +17,10 @@ Long description of module's purpose
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','stock', 'sale'],
+    'depends': ['base', 'product','stock', 'sale'],
 
-    # always loaded
-'tests': [
-    'tests/test_voucher.py'
 
-    ],
+
     'data': [
 
 
