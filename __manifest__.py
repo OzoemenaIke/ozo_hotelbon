@@ -22,6 +22,7 @@ Long description of module's purpose
 
 
     'data': [
+        'data/sequence_data.xml',
             'views/product_views.xml',
 
     ],

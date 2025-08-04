@@ -27,3 +27,9 @@
 
 - You should be able to buy multiple vouchers
 
+
+----------------------------------------------------------------
+
+- Unique code has been added through stock lots, by enabling tracking in products. This goes for every voucher
+
+- Delivery date + expiration date? But if the delivery is to a company how does it work.

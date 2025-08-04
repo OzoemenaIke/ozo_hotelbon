@@ -1,0 +1,9 @@
+<odoo>
+  <record id="seq_hotel_voucher" model="ir.sequence">
+    <field name="name">Hotel Voucher</field>
+    <field name="code">hotel.voucher</field>
+    <field name="padding">6</field>
+    <field name="prefix">VCH/%(year)s/</field>
+    <field name="implementation">no_gap</field>
+  </record>
+</odoo>

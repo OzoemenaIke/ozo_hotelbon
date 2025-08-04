@@ -1,9 +1,14 @@
-from odoo import models, fields
+from odoo import models, api
+from dateutil.relativedelta import relativedelta
+import logging
 
-class SalesOrder(models.Model):
+_logger = logging.getLogger(__name__)
+
+class SaleOrder(models.Model):
     _inherit = 'sale.order'
 
-    def action_confirm(self):
-        res = super().action_confirm()
-
-
+    # def action_confirm(self):
+    #     res = super().action_confirm()
+    #
+    #
+    #     return res
