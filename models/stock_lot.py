@@ -17,3 +17,6 @@ class StockLot(models.Model):
             today = fields.Date.context_today(self)
             lot.expiration_date = today + relativedelta(years=1)
         return lot
+
+
+
